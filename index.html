@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>Creat your own resume</title>
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+				<link rel="shortcut icon" href="dummy/logo.png">
+
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+	</head>
+
+	<body class="header-collapse">
+		
+		<div id="site-content">
+			<header class="site-header">
+				<div class="container">
+					<a href="index.html" id="branding">
+						<img src="dummy/logo.png" width= "250" height="275" alt="Site Title">
+					</a> <!-- #branding -->
+					
+					<nav class="main-navigation">
+						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
+						<ul class="menu">
+							<li class="menu-item current-menu-item"><a href="index.html"><font size="6.0">Home</font></a></li>
+							<li class="menu-item"><a href="about.html"><font size="6.0"> About </font></a></li>
+							<li class="menu-item"><a href="pages/login.php"><font size="6.0">LOGIN</font></a></li>
+							<li class="menu-item"><a href="contact.html"><font size="6.0">Contact</font></a></li>
+						</ul> <!-- .menu -->
+					</nav> <!-- .main-navigation -->
+					<div class="mobile-menu"></div>
+				</div>
+			</header> <!-- .site-header -->
+			
+		
+			<div class="container"> 
+  			<video id="video" width="1140" controls autoplay loop>
+				 <source src="movie1.mp4" type="video/mp4" /> 
+				<source src="movie3.webm" type="video/webm" />
+				<source src="movie2.x-flv" type="video/x-flv" />
+				<source src="movie.ogg" type="video/ogg " />
+			 </video>
+			 
+			<!--<iframe width="560" width="1500" height="600" src="movie.mp4" frameborder="0" allowfullscreen></iframe>-->
+
+			<div class="overlay"> 
+			<main class="main-content">
+				<div class="fullwidth-block testimonial-section">
+					<div class="container">
+						<div class="quote-slider">
+					
+				<button onclick="location.href = 'www.yoursite.com';" id="button" class="float-left submit-button"  >CREATE NOW</button>
+			</li>
+						
+								
+							</ul>
+						</div>
+					</div>
+				</div> <!-- .testimonial-section -->
+			</div>
+		</div>
+			
+
+			<footer class="site-footer">
+				<div class="container">
+					<img src="dummy/logo.png" alt="Site Name">
+					
+					<address>
+						<p>Ramanthan Road,Thirunelveli <br><a href="tel:9488487853">+91 94884 87853</a> <br> <a href="mailto:balansaranya99@gmail.com">balansaranya99@gmail.com</a></p> 
+					</address> 
+					
+					<form action="#" class="newsletter-form">
+						<input type="email" placeholder="Enter your email to join newsletter...">
+						<input type="submit" class="button cut-corner" value="Subscribe">
+					</form> <!-- .newsletter-form -->
+					
+					<div class="social-links">
+						<a href="#"><i class="fa fa-facebook-square"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-pinterest"></i></a>
+					</div> <!-- .social-links -->
+					
+					<p class="copy">Band Name @ Copyright 2016. All right reserved. Designed by <a href="http://srikrishnacommunication.com/Giridesigns.html">Giri Designs</a></p>
+			  </div>
+			</footer> <!-- .site-footer -->
+
+		</div> <!-- #site-content -->
+
+		<script src="js/jquery-1.11.1.min.js"></script>		
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		
+	</body>
+
+</html>
+
+
+<style>
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+
+.overlay {
+    position:absolute;
+   top:0;
+    left:0;
+    z-index:1;
+}
+button{
+	text-align: center;
+    height:60px; 
+    width:160px; 
+    margin: -200px -150px; 
+    position:relative;
+    top:300px; 
+    left:650px;
+    border-color: black
+    data-bg-color:  #0066cc
+}
+</style>
+
+
+<script type="text/javascript">
+    document.getElementById("button").onclick = function () {
+        location.href = "login.html";
+    };
+</script>
